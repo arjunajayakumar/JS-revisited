@@ -102,19 +102,67 @@
 
 // Abstraction
 
+// function Circle(radius) {
+//     this.radius = radius;
+//     this.defaultLocation = { x: 0, y: 0 };
+//     this.computeOptimumLocation = function () {
+
+//     }
+//     this.draw = function () {
+//         this.computeOptimumLocation();
+//         console.log('draw')
+//     };
+
+// }
+
+// const circle = new Circle(10);
+// circle.computeOptimumLocation();
+// circle.draw();
+
+
+// Private Properties & Methods
+// function Circle(radius) {
+//     this.radius = radius;
+
+//     this.defaultLocation = { x: 0, y: 0 };
+
+//     let computeOptimumLocation = function (factor) {
+
+//     }
+
+//     this.draw = function () {
+//         computeOptimumLocation(0.1);
+
+//         console.log('draw')
+//     };
+
+// }
+
+// Getters and Setters
 function Circle(radius) {
     this.radius = radius;
-    this.defaultLocation = {x:0, y:0};
-    this.computeOptimumLocation = function() {
-        
+
+    let defaultLocation = { x: 0, y: 0 };
+
+    this.getDefaultLocation = function () {
+        return defaultLocation
     }
-    this.draw = function() {
-        this.computeOptimumLocation();
+
+    this.draw = function () {
+        // computeOptimumLocation(0.1);
+
         console.log('draw')
     };
-          
+
+    Object.defineProperty(this, 'defaultLocation', {get: function() {
+        return defaultLocation;
+
+    }
+
+    });
 }
 
 const circle = new Circle(10);
-circle.computeOptimumLocation();
-circle.draw;
+circle.getDefaultLocation
+circle.draw();
+
