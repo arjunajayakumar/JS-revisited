@@ -14,19 +14,19 @@
 //     callback(num1 / num2)
 // }
 
-// // add(14, 30, (sum, err) => {
-// //     if (err) {
-// //         console.log('Error!!!!')
-// //     } else {
-// //         console.log('Sum', sum)
-// //         multiply(sum, sum, (product) => {
-// //             console.log('Product', product)
-// //             div(product, 10, result => {
-// //                 console.log('Division', result);
-// //             })
-// //         })
-// //     }
-// // })
+//  add(14, 30, (sum, err) => {
+//      if (err) {
+//          console.log('Error!!!!')
+//      } else {
+//          console.log('Sum', sum)
+//          multiply(sum, sum, (product) => {
+//              console.log('Product', product)
+//              div(product, 10, result => {
+//                  console.log('Division', result);
+//              })
+//          })
+//      }
+//  })
 
 
 // function add(num1, num2) {
