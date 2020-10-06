@@ -68,3 +68,5 @@
 
 
 
+let test = 'zzfdzdf@fgdgf@fghz@@@hgfhgfh@@';
+console.log(test.split('@'))
