@@ -1,5 +1,4 @@
-# JS-revisited
-### revisited javascript codes
+### Things to learn before React
 
 ### Modules
 1. ES6 Modules
@@ -39,4 +38,4 @@ const newUserState = {
 ### High order Array functions
 1. forEach()
 2. map()
-3. filter()
+3. filter() etc...

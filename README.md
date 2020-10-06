@@ -37,7 +37,53 @@ x  = {value:20}
 y  = {value: 20}
 ```
 
-* In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address
+* In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address.
+
+### Comparison Operators
+
+#### Relational Operators
+```
+console.log(x > 0);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x <= 1);
+```
+
+#### Equality Operators
+```
+console.log(x === 1);
+console.log(x !== 0);
+```
+#### Strict Equality(Type + Value)
+```
+console.log(1 === 1); 
+console.log('1' === 1);
+```
+
+#### Lose Equality
+```
+console.log(1 == 1);
+console.log('1' == 1);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## OOPS Concepts

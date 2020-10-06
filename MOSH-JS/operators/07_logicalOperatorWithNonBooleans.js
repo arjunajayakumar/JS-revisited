@@ -12,9 +12,11 @@
 //  Anything other than falsey is conidered as truthy
 
 // Short circuting
-let userColor = 'red';
-let defaultColor = 'blue';
+// let userColor = 'red';
+// let defaultColor = 'blue';
 
-console.log(userColor || defaultColor);
+// console.log(userColor || defaultColor);
 
 // In this case the 'userColor' is a truthy value so the intrepretter stops evaluating further value and we get 'red' as answer. this is called short circuting.
+
+console.log('red' || true || 'blue');
