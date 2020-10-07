@@ -11,7 +11,11 @@ console.log(key, person[key]);
 
 // Arrays
 
-let color = ['red', 'green', 'blue'];
+let colors = ['red', 'green', 'blue'];
 
-for(let index in color)
-console.log(index, color[index]);
+for(let index in colors)
+console.log(index, colors[index]);
+
+// for of loop
+for(let color of colors)
+console.log(color)
