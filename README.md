@@ -67,9 +67,8 @@ console.log('1' == 1);
 ```
 
 
-
-
-
+#### Single responsibility Principle
+Method of creating smaller functions inorder to perform specific tasks instead of a single function performs multiple tasks.
 
 
 
