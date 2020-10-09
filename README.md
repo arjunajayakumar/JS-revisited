@@ -1,45 +1,90 @@
-# JS-revisited
-### revisited javascript codes
+#### Value(Primitives) Vs Reference Types
 
-### Modules
-1. ES6 Modules
-2. Parcel, Webpack & Babel
-3. Export & Export Default
+##### Value Types(Primitives)
+1. Number
+2. String
+3. Boolean
+4. Symbol
+5. undefined
+6. null
 
-### Classes
-1. Structuring a class
-2. Constructors
-3. Methods & Properties
-4. Instatntiation
-5. Extending classes
+#### Refernce Types
+1. Object
+2. Function
+3. Array
 
-### Arrow functions
-Scope and Lexical this
+##### Primitives
+```
+let x = 10;
+let y = x;
+x = 20;
 
-### Promises/Asynhronus requests
-1. Create & receive promises
-2. .then() and .catch() syntax
-3. async & await
-4. fetch api
+output:
+x = 20;
+y = 10;
+```
+* In the case of primitives the actual value is copied to the variable. so that if we reassign the value of the variable, it will not make any chanes to the  copied variable.
 
-### Destructuring
+##### Reference
+```
+let x = {value:10};
+let y = x;
 
-### Concept of components and state
+x.value = 20;
 
-### Spread operator
-const userState = {
-    name:'John'
-}
+output
+x  = {value:20}
+y  = {value: 20}
+```
 
-const newUserState = {
-    ...userState,
-    age: 30
-}
+* In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address.
 
-### High order Array functions
-1. forEach()
-2. map()
-3. filter()
+### Comparison Operators
+
+#### Relational Operators
+```
+console.log(x > 0);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x <= 1);
+```
+
+#### Equality Operators
+```
+console.log(x === 1);
+console.log(x !== 0);
+```
+#### Strict Equality(Type + Value)
+```
+console.log(1 === 1); 
+console.log('1' === 1);
+```
+
+#### Lose Equality
+```
+console.log(1 == 1);
+console.log('1' == 1);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## OOPS Concepts
 
@@ -67,7 +112,7 @@ function getWage(baseSalary, overtime, rate) {
 }
 ```
 
-##### OO way of doing the same
+##### Object oriented way of doing the same
 ```
 let employee = {
     baseSalary: 30000,
@@ -91,7 +136,7 @@ console.log(employee.getWage())
 #### Instead of redefining common properties the same can be inheritted to the elements like select, textbox, checkbox so as to eliminate redundant code
 
 #### Polymorphism
-* Help to Refactor large Ugly if else/ switchcase statements eg:render()
+* Help to Refactor large Ugly if else/ switch case statements eg:render()
 
 
 ### Benefits
@@ -101,45 +146,3 @@ console.log(employee.getWage())
 4. Ploymorphism     - Refactor ugly switch/case statements
 
 
-#### Value(Primitives) Vs Reference Types
-##### Value Types(Primitives)
-1. Number
-2. String
-3. Boolean
-4. Symbol
-5. undefined
-6. null
-
-#### Refernce Types
-1. Object
-2. Function
-3. Array
-
-##### Primitives
-```
-// let x = 10;
-// let y = x;
-
-// x = 20;
-
-output:
-x = 20;
-y = 10;
-```
-* In the case of primitives the actual value is copied to the variable. so that if we reassign the value of the variable, it will not make any chanes to the  copied variable.
-
-##### Reference
-```
-let x = {value:10};
-let y = x;
-
-x.value = 20;
-
-output
-x  = {value:20}
-y  = {value: 20}
-```
-
-* In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address
-
-### Asynchronus Javascript
