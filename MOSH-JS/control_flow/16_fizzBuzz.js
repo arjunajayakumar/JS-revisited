@@ -1,19 +1,4 @@
-// Max of two numbers
-// function max(a, b) {
-//  return (a > b) ? a : b;
-// }
 
-// console.log(max(7,3));
-
-// Landscape or Not
-// function isLandscape(width, height) {
-//     return (width > height);
-// }
-
-// console.log(isLandscape(800,600))
-
-// let x = Array(3)
-// console.log(x == ',,');
 
 // Fizz Buzz
 // Divisible by 3 => Fizz
@@ -39,5 +24,3 @@ function fizzBuzz(number) {
 }
 
 console.log(fizzBuzz(true))
-
-
