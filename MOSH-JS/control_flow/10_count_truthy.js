@@ -1,3 +1,5 @@
+// Count Truthy
+
 function countTruthy(array) {
   let count = 0;
   for (let value of array)

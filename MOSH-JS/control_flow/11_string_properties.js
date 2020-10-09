@@ -1,3 +1,5 @@
+// Display string properties
+
 let movie = {
     name:'a',
     releaseYear:2014,
