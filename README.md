@@ -72,10 +72,11 @@ console.log('1' == 1);
 Method of creating smaller functions inorder to perform specific tasks instead of a single function performs multiple tasks.
 
 ## Objects
-#### Methods
+#### Factory Functions
 ------------
 * If  a function is a part of an object it is called a method.
 * If  the key & value are same we can remove the key and by adding the value only.
+* If a function that will return an object, it is called a factory function
 
 
 
