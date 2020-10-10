@@ -82,6 +82,7 @@ Method of creating smaller functions inorder to perform specific tasks instead o
 * The first letter of the constructor should be a uppercase letter
 * Camel Notataion - oneTwoThree
 * Pascal Notataion - OneTwoThree
+* constructor property - every object in javascipt has a property called constructor that references the function that is used to create that object.
 
 
 
