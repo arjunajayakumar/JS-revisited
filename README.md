@@ -84,6 +84,32 @@ y  = {value: 20}
 
 * In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address.
 
+### Object Methods
+
+#### For in 
+```
+for(let key in circle) {
+    console.log(key, circle[key])
+}
+```
+#### Object.keys
+```
+for(let key of Object.keys(circle)) {
+    console.log(key)
+}
+```
+#### Object.entries
+```
+
+for(let entry of Object.entries(circle)) {
+    console.log(entry)
+}
+```
+#### in
+```
+
+if('radius' in circle) console.log('yes');
+```
 
 
 ## OOPS Concepts
