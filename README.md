@@ -1,45 +1,5 @@
 ## Basics
 
-#### Value(Primitives) Vs Reference Types
-##### Value Types(Primitives)
-1. Number
-2. String
-3. Boolean
-4. Symbol
-5. undefined
-6. null
-
-#### Refernce Types
-1. Object
-2. Function
-3. Array
-
-##### Primitives
-```
-let x = 10;
-let y = x;
-x = 20;
-
-output:
-x = 20;
-y = 10;
-```
-* In the case of primitives the actual value is copied to the variable. so that if we reassign the value of the variable, it will not make any chanes to the  copied variable.
-
-##### Reference
-```
-let x = {value:10};
-let y = x;
-
-x.value = 20;
-
-output
-x  = {value:20}
-y  = {value: 20}
-```
-
-* In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address.
-
 ## Operators
 ### Comparison Operators
 
@@ -84,19 +44,45 @@ Method of creating smaller functions inorder to perform specific tasks instead o
 * Pascal Notataion - OneTwoThree
 * constructor property - every object in javascipt has a property called constructor that references the function that is used to create that object.
 
+#### Value(Primitives) Vs Reference Types
+##### Value Types(Primitives)
+1. Number
+2. String
+3. Boolean
+4. Symbol
+5. undefined
+6. null
 
+#### Refernce Types
+1. Object
+2. Function
+3. Array
 
+##### Primitives
+```
+let x = 10;
+let y = x;
+x = 20;
 
+output:
+x = 20;
+y = 10;
+```
+* In the case of primitives the actual value is copied to the variable. so that if we reassign the value of the variable, it will not make any chanes to the  copied variable.
 
+##### Reference
+```
+let x = {value:10};
+let y = x;
 
+x.value = 20;
 
+output
+x  = {value:20}
+y  = {value: 20}
+```
 
-
-
-
-
-
-
+* In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address.
 
 
 
