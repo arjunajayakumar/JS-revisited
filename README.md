@@ -1,5 +1,50 @@
-#### Value(Primitives) Vs Reference Types
+## Basics
 
+## Operators
+### Comparison Operators
+
+#### Relational Operators
+```
+console.log(x > 0);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x <= 1);
+```
+
+#### Equality Operators
+```
+console.log(x === 1);
+console.log(x !== 0);
+```
+#### Strict Equality(Type + Value)
+```
+console.log(1 === 1); 
+console.log('1' === 1);
+```
+
+#### Lose Equality
+```
+console.log(1 == 1);
+console.log('1' == 1);
+```
+
+## Control Flow
+#### Single responsibility Principle
+Method of creating smaller functions inorder to perform specific tasks instead of a single function performs multiple tasks.
+
+## Objects
+#### Factory Functions
+* If  a function is a part of an object it is called a method.
+* If  the key & value are same we can remove the key and by adding the value only.
+* If a function that will return an object, it is called a factory function
+
+#### Constructor functions
+* The first letter of the constructor should be a uppercase letter
+* Camel Notataion - oneTwoThree
+* Pascal Notataion - OneTwoThree
+* constructor property - every object in javascipt has a property called constructor that references the function that is used to create that object.
+
+#### Value(Primitives) Vs Reference Types
 ##### Value Types(Primitives)
 1. Number
 2. String
@@ -39,51 +84,32 @@ y  = {value: 20}
 
 * In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address.
 
-### Comparison Operators
+### Object Methods
 
-#### Relational Operators
+#### For in 
 ```
-console.log(x > 0);
-console.log(x >= 1);
-console.log(x < 1);
-console.log(x <= 1);
+for(let key in circle) {
+    console.log(key, circle[key])
+}
 ```
-
-#### Equality Operators
+#### Object.keys
 ```
-console.log(x === 1);
-console.log(x !== 0);
+for(let key of Object.keys(circle)) {
+    console.log(key)
+}
 ```
-#### Strict Equality(Type + Value)
-```
-console.log(1 === 1); 
-console.log('1' === 1);
+#### Object.entries
 ```
 
-#### Lose Equality
+for(let entry of Object.entries(circle)) {
+    console.log(entry)
+}
 ```
-console.log(1 == 1);
-console.log('1' == 1);
+#### in
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if('radius' in circle) console.log('yes');
+```
 
 
 ## OOPS Concepts
