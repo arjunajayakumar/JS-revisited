@@ -1,5 +1,6 @@
-#### Value(Primitives) Vs Reference Types
+## Basics
 
+#### Value(Primitives) Vs Reference Types
 ##### Value Types(Primitives)
 1. Number
 2. String
@@ -73,10 +74,14 @@ Method of creating smaller functions inorder to perform specific tasks instead o
 
 ## Objects
 #### Factory Functions
-------------
 * If  a function is a part of an object it is called a method.
 * If  the key & value are same we can remove the key and by adding the value only.
 * If a function that will return an object, it is called a factory function
+
+#### Constructor functions
+* The first letter of the constructor should be a uppercase letter
+* Camel Notataion - oneTwoThree
+* Pascal Notataion - OneTwoThree
 
 
 
