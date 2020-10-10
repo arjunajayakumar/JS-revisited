@@ -39,6 +39,7 @@ y  = {value: 20}
 
 * In the case of refernce types the actual variable is copied to a different location and the address of that location is copied to the second variable ao that when we change the first variable it will automatically chnages the value of the second variable because they both are pointed to the same refrence/address.
 
+## Operators
 ### Comparison Operators
 
 #### Relational Operators
@@ -66,9 +67,16 @@ console.log(1 == 1);
 console.log('1' == 1);
 ```
 
-
+## Control Flow
 #### Single responsibility Principle
 Method of creating smaller functions inorder to perform specific tasks instead of a single function performs multiple tasks.
+
+## Objects
+#### Methods
+------------
+* If  a function is a part of an object it is called a method.
+* If  the key & value are same we can remove the key and by adding the value only.
+
 
 
 
