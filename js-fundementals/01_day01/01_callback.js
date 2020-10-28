@@ -1,5 +1,5 @@
 
-// setTimeout(()=> console.log("logCall was Called"), 3000)
+setTimeout(() => console.log("logCall was Called"), 3000)
 
 
 console.log('1')

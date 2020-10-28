@@ -1,31 +1,31 @@
-// let test = function () {
-//     console.log("start of code")
-//     alert("Notice me!")
-//     console.log("end of the code")
-// }
+let test = function () {
+    console.log("start of code")
+    alert("Notice me!")
+    console.log("end of the code")
+}
 
-// let test2 = function () {
-//     console.log("End of the code")
-// }
+let test2 = function () {
+    console.log("End of the code")
+}
 
-// test()
-// test2()
+test()
+test2()
 
 // Convert this code in to asynchronus
-// let test = function () {
-//     setTimeout(() => {
-//         console.log("start of code")
-//         alert("Notice me!")
-//         console.log("end of the code")
-//     }, 2000)
-// }
+let test = function () {
+    setTimeout(() => {
+        console.log("start of code")
+        alert("Notice me!")
+        console.log("end of the code")
+    }, 2000)
+}
 
-// let test2 = function () {
-//     console.log("End of the code")
-// }
+let test2 = function () {
+    console.log("End of the code")
+}
 
-// test()
-// test2()
+test()
+test2()
 
 console.log('2');
 setTimeout(() => {
