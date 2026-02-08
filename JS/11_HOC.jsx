@@ -1,0 +1,25 @@
+function WithBorder(wrappedComponent) {
+  return function NewComponent(props) {
+    return (
+      <div style={{ border: "2px solid blue", padding: "10px" }}>
+        <wrappedComponent {...props} />
+      </div>
+    );
+  };
+}
+
+//Simple component without border
+function Greeting({ name }) {
+  return <h1>Hello {name}</h1>;
+}
+
+// Create a new component with border
+const GreetingWithBorder = withBorder(Greeting);
+
+function App() {
+  return (
+    <div>
+      <GreetingWithBorder name="Jane" />
+    </div>
+  );
+}
